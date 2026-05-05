@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: Good-Great-Grand-Wonderful
       url-base: https://github.com/Good-Great-Grand-Wonderful
+    - name: HeeTuic  
+      url-base: https://github.com/HeeTuic    
   projects:
     - name: zmk
       remote: zmkfirmware
