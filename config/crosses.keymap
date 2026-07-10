@@ -49,7 +49,7 @@
 &mt ESC Q           &kp W           &kp E                  &kp COMMA           &kp PERIOD                &kp Y      &kp T                   &kp R             &kp G            &mt DEL P
 &mt LEFT_CONTROL A  &mt LEFT_ALT I  &mt LEFT_SHIFT U       &mt LEFT_COMMAND O  &mt LEFT_SHIFT MINUS      &kp H      &mt RGUI J              &mt LEFT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL D
 &lt 3 Z             &lt 2 X         &lt 1 C                &mt LEFT_COMMAND V  &mt LEFT_SHIFT SEMICOLON  &kp N      &kp M                   &kp S             &kp F            &lt 1 B
-                                    &mt LEFT_COMMAND CAPS  &lt 2 SPACE         &lt 1 ENTER               &mkp LCLK  &mt LEFT_ALT BACKSPACE  &mkp RCLK
+                                    &mt LEFT_COMMAND CAPS  &lt 2 SPACE         &lt 1 ENTER                &mkp LCLK  &mt LEFT_ALT BACKSPACE  &mkp RCLK
             >;
         };
 
@@ -58,8 +58,8 @@
             bindings = <
 &kp EQUAL              &kp NUMBER_7           &kp N8             &kp N9                     &kp SLASH         &kp RG(P)  &kp RG(W)    &kp RG(R)      &kp RG(Y)  &kp TAB
 &mt LEFT_CONTROL PLUS  &mt LEFT_ALT NUMBER_4  &mt LEFT_SHIFT N5  &mt LEFT_COMMAND NUMBER_6  &kp LEFT_COMMAND  &kp LG(F)  &kp RG(T)    &kp RG(Z)      &kp RG(S)  &kp BACKSPACE
-&kp N0                 &kp NUMBER_1           &kp NUMBER_2       &kp NUMBER_3               &kp ASTERISK      &kp AT     &kp AT_SIGN  &kp RG(LS(V))  &kp RG(X)  &kp DEL
-                                              &trans             &trans                     &trans            &trans     &trans       &trans
+&kp N0                 &kp NUMBER_1           &kp NUMBER_2       &kp NUMBER_3               &kp ASTERISK      &trans     &kp AT_SIGN  &kp RG(LS(V))  &kp RG(X)  &kp DEL
+                                                                 &trans                     &trans            &trans     &trans       &trans         &trans
             >;
         };
 
